@@ -2,20 +2,23 @@
   "lists": [
     {
       "id": 1,
-      "name": "groceries",
-      "tasks": [
-        "milk",
-        "eggs",
-        "diapers"
-      ]
+      "name": "groceries"
     },
     {
       "id": 2,
-      "name": "work",
-      "tasks": [
-        "check email",
-        "talk to people"
-      ]
+      "name": "work"
     }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "list_id": 1,
+      "name": "milk"
+    },
+    {
+      "id": 2,
+      "list_id": 1,
+      "name": "eggs"
+    }    
   ]
 }
